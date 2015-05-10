@@ -16,7 +16,7 @@ public struct MyValue<T:AnyObject> {
 	
 	public init(equal: Equal) {
 		
-		self.equal = equal
 		self.containers = Containers()
+		self.equal = equal
 	}
 }

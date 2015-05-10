@@ -8,10 +8,10 @@
 
 public struct MyValue<T:AnyObject> {
 	
-	public private(set) var equal:(T, T) -> Bool
+//	public private(set) var equal:(T, T) -> Bool
 	
 	public init(equal: (T, T) -> Bool) {
 		
-		self.equal = equal
+//		self.equal = equal
 	}
 }

@@ -8,11 +8,9 @@
 
 public struct MyValue<T:AnyObject> {
 	
-	public typealias Equal = (T, T) -> Bool
+	public private(set) var equal:(T, T) -> Bool
 	
-	public private(set) var equal:Equal
-	
-	public init(equal: Equal) {
+	public init(equal: (T, T) -> Bool) {
 		
 		self.equal = equal
 	}

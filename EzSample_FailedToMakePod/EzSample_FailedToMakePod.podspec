@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "Tomohiro Kumagai" => "http://ez-net.jp/profile/" }
   s.social_media_url   = "http://twitter.com/es_kumagai"
 
-  s.ios.deployment_target = "7.0"
-  s.osx.deployment_target = "10.9"
+  s.osx.deployment_target = "10.10"
 
   s.source       = { :git => "https://github.com/EZ-NET/EzSample_FailedToMakePod.git", :branch => "TryToPass" }
   s.source_files  = "EzSample_FailedToMakePod/**/*.swift"

@@ -32,6 +32,7 @@
 		B18278391AFF06070094BCE1 /* EzSample_FailedToMakePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzSample_FailedToMakePodTests.swift; sourceTree = "<group>"; };
 		B18278431AFF062D0094BCE1 /* MyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyValue.swift; sourceTree = "<group>"; };
 		B18278451AFF07250094BCE1 /* EzSample_FailedToMakePod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EzSample_FailedToMakePod.podspec; sourceTree = "<group>"; };
+		B18278461AFF0C830094BCE1 /* make.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = make.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		B18278291AFF06070094BCE1 /* EzSample_FailedToMakePod */ = {
 			isa = PBXGroup;
 			children = (
+				B18278461AFF0C830094BCE1 /* make.sh */,
 				B182782C1AFF06070094BCE1 /* EzSample_FailedToMakePod.h */,
 				B18278431AFF062D0094BCE1 /* MyValue.swift */,
 				B18278451AFF07250094BCE1 /* EzSample_FailedToMakePod.podspec */,

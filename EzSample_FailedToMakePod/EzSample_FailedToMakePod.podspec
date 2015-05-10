@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.9"
 
-  s.source       = { :git => "https://github.com/EZ-NET/EzSample_FailedToMakePod.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/EZ-NET/EzSample_FailedToMakePod.git", :branch => "TryToPass" }
   s.source_files  = "EzSample_FailedToMakePod/**/*.swift"
 
 end

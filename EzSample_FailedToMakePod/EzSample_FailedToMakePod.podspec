@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "Swim"
-  s.version      = "1.0.0"
-  s.summary      = "EZ-NET Standard Swift Module."
+  s.name         = "EzSample_FailedToMakePod"
+  s.version      = "0.0.1"
+  s.summary      = "Failed to execute `pod repo push` against the podspec."
 
   s.description  = <<-DESC
                    Failed to execute `pod repo push` against the podspec.

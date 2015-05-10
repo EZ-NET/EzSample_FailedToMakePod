@@ -9,11 +9,14 @@
 public struct MyValue<T:AnyObject> {
 	
 	public typealias Equal = (T, T) -> Bool
+	public typealias Containers = ContiguousArray<String>
 	
 	public private(set) var equal:Equal
+	public private(set) var containers:Containers
 	
 	public init(equal: Equal) {
 		
 		self.equal = equal
+		self.containers = Containers()
 	}
 }

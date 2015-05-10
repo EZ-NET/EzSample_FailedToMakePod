@@ -9,7 +9,9 @@
 public struct MyValue<T:AnyObject> {
 	
 	public typealias Equal = (T, T) -> Bool
-	public typealias Containers = ContiguousArray<String>
+	
+//	public typealias Containers = ContiguousArray<String>
+	public typealias Containers = Array<String>
 	
 	public private(set) var equal:Equal
 	public private(set) var containers:Containers
